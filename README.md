@@ -19,8 +19,8 @@ Run the script with no arguments (`./sorted-bam-to-fold-coverage.sh`) for a help
 
 If the input BAM file is named `input.bam`:
 
-* `input_idxstats.tsv`: A tab-separated table describing the alignment summary statistics. See SAMtools [`depth`](http://www.htslib.org/doc/samtools-depth.html) for more details.
-* `input_depth.tsv`: A tab-separated table describing read depth for each position in each alignment; positions with no alignments are included as '0'. See SAMtools [`idxstats`](https://www.htslib.org/doc/samtools-idxstats.html) for more details.
+* `input_idxstats.tsv`: A tab-separated table describing the alignment summary statistics. See SAMtools [`idxstats`](https://www.htslib.org/doc/samtools-idxstats.html) for more details.
+* `input_depth.tsv`: A tab-separated table describing read depth for each position in each alignment; positions with no alignments are included as '0'. See SAMtools [`depth`](http://www.htslib.org/doc/samtools-depth.html) for more details.
 * `input_fold-coverages.tsv`: A tab-separated table with the features in the BAM file as the first column and fold-coverage as the second column. Fold-coverage is calculated by calculating the cumulative read depth for each feature and dividing by the length of the reference sequence of that feature.
 
 ### Example
