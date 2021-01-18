@@ -1,5 +1,6 @@
 # CoDA-tools
-Scripts for helping with compositional data analysis.
+
+Scripts for helping with the compositional data analysis of microbiome data sets.
 
 ## `sorted-bam-to-fold-coverage.sh`
 
