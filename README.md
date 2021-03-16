@@ -32,4 +32,4 @@ To run the script on an input file named Control_55_S1_sorted.bam in `bowtie2/`,
 $ ./sorted-bam-to-fold-coverage.sh bowtie2/Control_55_S1_sorted.bam results/
 ```
 
-The output files will be named Control_55_S1_sorted_idxstats.tsv, Control_55_S1_sorted_depth.tsv`, and Control_55_S1_sorted_fold-coverages.tsv.
+The output files will be named Control_55_S1_sorted_idxstats.tsv, Control_55_S1_sorted_depth.tsv, and Control_55_S1_sorted_fold-coverages.tsv.
